@@ -1,0 +1,26 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+
+# OS/system files
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# App output and recordings
+recordings/
+outputs/
+*.m4a
+*.wav
+*.json
+*.txt

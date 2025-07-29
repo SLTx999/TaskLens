@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskLens</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TaskLens MVP</h1>
+    <div id="recording-choice">
+        <label><input type="radio" name="recordingType" value="local" checked> Zoom Local Recording</label><br>
+        <label><input type="radio" name="recordingType" value="cloud"> Zoom Cloud Recording</label>
+    </div>
+
+    <div class="button-row">
+        <button id="run-pipeline">Transcribe + Extract</button>
+        <button id="send-trello" disabled>Send to Trello</button>
+    </div>
+
+    <div class="main-content">
+        <pre id="transcript-output"></pre>
+        <div id="tasks-container"></div>
+        <button id="add-task" style="display: none">+ Add Task</button>
+    </div>
+
+    <div id="spinner" style="display: none">
+        <div class="loader"></div>
+    </div>
+    </body>
+</html>

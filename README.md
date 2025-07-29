@@ -172,16 +172,21 @@ Tasks are then displayed in Trello like this:
 
 ### **To-Do**
 ──────────────
+
 • Check the login flow
+
 • Fix the bug and patch the task sync logic
+
 • Review team testing merge requests in GitLab
 
 ### **Doing**
 ──────────────
+
 • Start backend endpoint for export function
 
 ### **Done**
 ──────────────
+
 • UI cleanup work for the dashboard 
 
 ---

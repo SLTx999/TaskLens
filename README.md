@@ -4,6 +4,10 @@ TaskLens is a lightweight AI assistant that transcribes Zoom meeting recordings 
 
 ---
 
+Video Demo: https://drive.google.com/file/d/10DnkgR0nSVfvLLCNsNCA9JpjH7mYhIrH/view?usp=sharing
+
+---
+
 ## Setup Instructions
 
 ### 1. Clone and Enter Project
